@@ -1,0 +1,26 @@
+/* Header.css */
+.header {
+  height: 80px; /* Adjust the height as needed */
+  background-color: #444;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;  
+}
+
+.logo {
+  width: 40px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.logo-text {
+  font-size: 18px; /* Adjust the font size as needed */
+  margin: 0; /* Remove default margin */
+}

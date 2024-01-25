@@ -1,0 +1,54 @@
+/* Sidebar.css */
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  margin-bottom: 15px;
+  padding: 12px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+li a:hover {
+  color: #61dafb;
+}
+
+/* Add spacing between icon and text */
+li a svg {
+  margin-right: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Take full width on smaller screens */
+  }
+
+  li {
+    text-align: center;
+  }
+
+  li a svg {
+    margin-right: 0; /* Remove spacing between icon and text on smaller screens */
+  }
+}
